@@ -3,22 +3,17 @@
 # ===================================
 
 # ------------------------------
-# Global Ignorar Archivos del Sistema
-# ------------------------------
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-
-# ------------------------------
 # .NET Core / Visual Studio
 # ------------------------------
 # Build results
 bin/
 obj/
 out/
+
+bin/
+obj/
+obj/debug/
+bin
 
 # NuGet Packages
 *.nupkg
